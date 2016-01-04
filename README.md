@@ -45,8 +45,7 @@ bar
 > (+ 1 (if (+ 2 -2) (ceiling 6.1) (+ 4 2.3 2)))
 9.3
 
-## Library
-
+Library
 (define printf (lambda () 
 		 (print (quote Hello)) 
 		 (print (quote World)) 
